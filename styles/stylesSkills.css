@@ -12,13 +12,13 @@
     display: block;
     justify-items: center;
     border: 0.5vw solid #00000000;
-    img{
-        width: 8vw;
-        height: 8vw;
-        transition: ease-in-out 350ms;
-        margin: 0.8vw;
-        filter: drop-shadow(0 10px 20px #8d1dc156);
-    }
+}
+.skill img{
+    width: 8vw;
+    height: 8vw;
+    transition: ease-in-out 350ms;
+    margin: 0.8vw;
+    filter: drop-shadow(0 10px 20px #8d1dc156);
 }
 .skill:hover img{
     width: 12vw;
