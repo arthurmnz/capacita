@@ -19,10 +19,10 @@
         margin: 0.8vw;
         filter: drop-shadow(0 10px 20px #8d1dc156);
     }
-    img{
-        width: 12vw;
-        height: 12vw;
-    }
+}
+.skill:hover img{
+    width: 12vw;
+    height: 12vw;
 }
 
 .progress_bar {
