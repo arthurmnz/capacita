@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesContato.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cascadia+Code:ital,wght@0,200..700;1,200..700&display=swap" rel="stylesheet">
+    <title>Contato</title>
+</head>
+<body>
+    <header class="header">
+        <div class="title_header">
+            <a href="/index.html"><h1> Arthur Menezes</h1></a>
+        </div>
+        <nav class="menu">
+            <div class="menu_item">
+                <a href="/index.html#about_me">Sobre</a>
+            </div>
+            <div class="menu_item">
+                <a href="/index.html#formation">Formação</a>
+            </div>
+            <div class="menu_item">
+                <a href="/index.html#projects">Projetos</a>
+            </div>
+            <div class="menu_item">
+                <a href="/index.html#skilss">Skills</a>
+            </div>
+            <div class="menu_item">
+                <a href="/contato.html">Contato</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="contacts">
+            <content class="contacts_content">
+                <form class="form_contact" action="/index.html" method="post">
+                    <div class="title_contact">
+                        <h1>Entre em<br> contato</h1>
+                    </div>
+                    <input class="input_box" type="text" id="fullname" placeholder="Nome Completo" name="fullname" required>
+
+                    <input class="input_box" type="email" id="email" placeholder="Email" name="email" required>
+
+                    <input class="input_box" type="tel" id="phonenumber" pattern="\([0-9]{2}\) [0-9]{1} [0-9]{4}-[0-9]{4}"placeholder="(xx) x xxxx-xxxx" name="phonenumber" required>
+
+                    <input class="input_box" type="text" id="mensage" placeholder="Mensagem" name="mensage" required>
+
+                    <input class="input_button" type="submit" id="submit" name="submit" placeholder="Enviar">
+                </form>
+            </content>
+        </section>
+    </main>
+    <footer>
+        <div class="line"></div>
+    </footer>
+</body>
+</html>

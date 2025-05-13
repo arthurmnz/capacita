@@ -1,0 +1,42 @@
+.about_me{
+    background-image: none;
+    display: block;
+    align-items: center;
+}
+.about_me_content{
+    display: flex;
+    justify-content: space-between;
+}
+.picture_about_me{
+    display: block;
+    justify-items: center;
+    align-items: center;
+    width: 50%;
+    h3{
+        color: #dc7dff;
+        font-weight:900;
+        margin: 10px;
+    }
+    h3::after{
+        content: '';
+        display: block;
+        width: 60%;
+        height: 1px;
+        background-color: #8d1dc1;
+    }
+}
+#img_perfil{
+    border-radius: 50%;
+    border: #8e1dc1 0.5vh solid;
+    box-shadow: #b839e8 0px 0px 15px 1px;
+    margin: 2vw;
+    width: 20vw;
+    height: 20vw;
+}
+.texts_about_me{
+    width: 50%;
+    display: block;
+    justify-items: start;
+    align-content: center;
+    background-color: #00000000;
+}
