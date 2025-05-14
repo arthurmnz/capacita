@@ -3,22 +3,27 @@
     justify-content: center;
     gap: 2vw;
 }
-.picture_project{
+.project_card{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
+    gap: 0.2vw;
+    width: 20%;
+    max-height: 100%;
 
     filter: drop-shadow(0 10px 25px #8d1dc156);
-    width: 20%;
     border: #8e1dc1 1.5px solid;
     padding: 10px;
-    border-radius: 2%;
-    transition: ease-in-out 200ms;
-    img{
-        width: 100%;
-        height: auto;
-        border-radius: 2%;
-        margin-bottom: 4%;
+    border-radius: 10px;
+    picture{
+        display: flex;
+        align-content: start;
+        img{
+            width: 100%;
+            height: 100%;
+            border-radius: 5px;
+            margin-bottom: 4%;
+        }
     }
 }
 .tags{
@@ -30,7 +35,6 @@
     background-color: #dc7dff5d;
     box-shadow: #dc7dff 0 0 6px;
     margin: 0;
-    margin-top: 0.4vw;
     margin-right: 5%;
     font-size: 1vw;
     border: 0.4vw #ffffff00 solid;

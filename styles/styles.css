@@ -45,16 +45,8 @@ p {
     display: flex;
     align-items: center;
 }
-.github_icon{
-    width: 4vw;
-    height: 4vw;
-    margin: 1vh;
-}
-.email_icon{
-    width: 3.3vw;
-    height: 3.3vw;
-    margin: 1vh;
-}
+
+
 
 main{
     background-color: #1b1a22;

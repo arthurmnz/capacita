@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="styles/stylesProjects.css">
     <link rel="stylesheet" href="styles/stylesSkills.css">
     <link rel="stylesheet" href="styles/stylesContacts.css">
+    <link rel="stylesheet" href="styles/stylesDepoiments.css">
     <link rel="stylesheet" href="styles/stylesFooter.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,7 +21,7 @@
 <body>
     <header class="header">
         <div class="title_header">
-            <a href="/capacita"><h1> Arthur Menezes</h1></a>
+            <a href="/index.html"><h1> Arthur Menezes</h1></a>
         </div>
         <nav class="menu">
             <div class="menu_item">
@@ -36,7 +37,7 @@
                 <a href="#skills">Skills</a>
             </div>
             <div class="menu_item">
-                <a href="capacita/contato.html">Contato</a>
+                <a href="contato.html">Contato</a>
             </div>
         </nav>
     </header>
@@ -46,8 +47,8 @@
                 <h1>Sobre</h1>
             </div>
             <content class="about_me_content">
-                <picture class="picture_about_me">
-                    <img id="img_perfil" width="48" height="48" src="https://img.icons8.com/color/48/administrator-male--v1.png" alt="administrator-male--v1"/>
+                <picture class="picture_about_me">  
+                    <img width="100" height="100" src="https://img.icons8.com/fluency-systems-regular/100/administrator-male.png" alt="administrator-male"/>
                     <h2>Arthur Menezes</h2>
                     <h3>DESENVOLVEDOR FULL STACK</h3>
                     <nav class="social_icons">
@@ -73,41 +74,49 @@
                 <h1>Projetos</h1>
             </div>
             <content class="projects_content">
-                <picture class="picture_project">
-                    <img src="img/projeto_generico.jpg" alt="">
+                <div class="project_card">
+                    <picture>
+                        <img src="img/projeto_generico.jpg" alt="">
+                    </picture>
                     <h3>Projeto PAE</h3>
                     <div class="tags">
                         <p class="tag">#em-progresso</p>
                     </div>
-                    <p>PAE, um projeto da faculdade, o qual faço parte na manutenção e escalabilidade do código do seu aplicativo o amo.<br><br>Aplicativo esse com o foco de facilitar a comunicação entre aluno, monitor e professores.</p>
-                </picture>
-                <picture class="picture_project">
-                    <img src="img/projeto_generico.jpg" alt="">
+                    <p>PAE, um projeto da faculdade, o qual faço parte na manutenção e escalabilidade do código do seu aplicativo o amo. App esse com o foco de facilitar a comunicação entre aluno, monitor e professores.</p>
+                </div>
+                <div class="project_card">
+                    <picture>
+                        <img src="img/projeto_generico.jpg" alt="">
+                    </picture>
                     <h3>Projeto 2</h3>
                     <div class="tags">
                         <p class="tag">#tag 2</p>
                         <p class="tag">#tag 2</p>
                     </div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos molestiae ducimus, laudantium, facilis libero doloremque aliquid animi esse vero, iure enim! Ut voluptate accusantium commodi temporibus quasi et nesciunt molestiae?</p>
-                </picture>
-                <picture class="picture_project">
-                    <img src="img/projeto_generico.jpg" alt="">
+                </div>
+                <div class="project_card">
+                    <picture>
+                        <img src="img/projeto_generico.jpg" alt="">
+                    </picture>
                     <h3>Projeto 3</h3>
                     <div class="tags">
                         <p class="tag">#tag 3</p>
                         <p class="tag">#tag 3</p>
                     </div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos molestiae ducimus, laudantium, facilis libero doloremque aliquid animi esse vero, iure enim! Ut voluptate accusantium commodi temporibus quasi et nesciunt molestiae?</p>
-                </picture>
-                <picture class="picture_project">
-                    <img src="img/projeto_generico.jpg" alt="">
+                </div>
+                <div class="project_card">
+                    <picture>
+                        <img src="img/projeto_generico.jpg" alt="">
+                    </picture>
                     <h3>Projeto 4</h3>
                     <div class="tags">
                         <p class="tag">#tag 4</p>
                         <p class="tag">#tag 4</p>
                     </div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos molestiae ducimus, laudantium, facilis libero doloremque aliquid animi esse vero, iure enim! Ut voluptate accusantium commodi temporibus quasi et nesciunt molestiae?</p>
-                </picture>
+                </div>
             </content>
         </section>
         <section class="skills" id="skills">
@@ -152,9 +161,74 @@
                 </div>
             </content>
         </section>
+        <section class="depoiments" id="depoiments">
+            <div class="title">
+                <h1>Depoimentos</h1>
+            </div>
+            <content class="depoiments_content">
+                <div class="depoiment_card">
+                    <picture>
+                        <img width="100" height="100" src="https://img.icons8.com/fluency-systems-regular/100/administrator-male.png" alt="administrator-male"/>
+                    </picture>
+                    <h3>User 1</h3>
+                    <div class="stars">
+                        <img class="star" width="48" height="48" src="https://img.icons8.com/fluency/48/star--v1.png" alt="star--v1"/>
+                        <img class="star" width="48" height="48" src="https://img.icons8.com/fluency/48/star--v1.png" alt="star--v1"/>
+                        <img class="star" width="48" height="48" src="https://img.icons8.com/fluency/48/star--v1.png" alt="star--v1"/>
+                        <img class="star" width="48" height="48" src="https://img.icons8.com/fluency/48/star--v1.png" alt="star--v1"/>
+                        <img class="star" width="48" height="48" src="https://img.icons8.com/fluency/48/star--v1.png" alt="star--v1"/>
+                    </div>
+                    <article>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex eveniet aperiam, possimus similique culpa velit ipsam nam fugiat? Expedita dolor alias voluptas sequi. Ipsam, molestias sit! Reprehenderit distinctio excepturi facilis!</p>
+                    </article>
+                </div>
+                <div class="depoiment_card">
+                    <picture>
+                        <img width="100" height="100" src="https://img.icons8.com/fluency-systems-regular/100/administrator-male.png" alt="administrator-male"/>
+                    </picture>
+                    <h3>User 1</h3>
+                    <div class="stars">
+                        <img class="star" width="48" height="48" src="https://img.icons8.com/fluency/48/star--v1.png" alt="star--v1"/>
+                        <img class="star" width="48" height="48" src="https://img.icons8.com/fluency/48/star--v1.png" alt="star--v1"/>
+                        <img class="star" width="48" height="48" src="https://img.icons8.com/fluency/48/star--v1.png" alt="star--v1"/>
+                        <img class="star" width="48" height="48" src="https://img.icons8.com/fluency/48/star--v1.png" alt="star--v1"/>
+                        <img class="star" width="48" height="48" src="https://img.icons8.com/fluency/48/star--v1.png" alt="star--v1"/>
+                    </div>
+                    <article>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex eveniet aperiam, possimus similique culpa velit ipsam nam fugiat? Expedita dolor alias voluptas sequi. Ipsam, molestias sit! Reprehenderit distinctio excepturi facilis!</p>
+                    </article>
+                </div>
+                <div class="depoiment_card">
+                    <picture>
+                        <img width="100" height="100" src="https://img.icons8.com/fluency-systems-regular/100/administrator-male.png" alt="administrator-male"/>
+                    </picture>
+                    <h3>User 1</h3>
+                    <div class="stars">
+                        <img class="star" width="48" height="48" src="https://img.icons8.com/fluency/48/star--v1.png" alt="star--v1"/>
+                        <img class="star" width="48" height="48" src="https://img.icons8.com/fluency/48/star--v1.png" alt="star--v1"/>
+                        <img class="star" width="48" height="48" src="https://img.icons8.com/fluency/48/star--v1.png" alt="star--v1"/>
+                        <img class="star" width="48" height="48" src="https://img.icons8.com/fluency/48/star--v1.png" alt="star--v1"/>
+                        <img class="star" width="48" height="48" src="https://img.icons8.com/fluency/48/star--v1.png" alt="star--v1"/>
+                    </div>
+                    <article>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex eveniet aperiam, possimus similique culpa velit ipsam nam fugiat? Expedita dolor alias voluptas sequi. Ipsam, molestias sit! Reprehenderit distinctio excepturi facilis! lo</p>
+                    </article>
+                </div>
+            </content>
+        </section>
     </main>
     <footer>
         <div class="line"></div>
+        <div class="footer_content">
+            <div class="footer_text">
+                <p>Desenvolvido por Arthur Menezes</p>
+            </div>
+            <nav class="social_icons">
+                <a href="https://github.com/arthurmnz"> <img class="github_icon" width="64" height="64" src="https://img.icons8.com/sf-black-filled/50/8e1dc1/github.png" alt="github"/> </a>
+                <a href="https://www.linkedin.com/in/arthur-gomes-menezes-8649b0365/"> <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/8d1dc1/linkedin.png" alt="linkedin"/> </a>
+                <a href="https://wa.me/5574999298992?text=Olá, Estou interrassado no seus trabalhos." target="_blank"> <img width="50" height="50" src="https://img.icons8.com/fluency-systems-regular/50/8e1dc1/whatsapp--v1.png" alt="whatsapp--v1"/> </a>
+            </nav>
+                
     </footer>
 </body>
 </html>
