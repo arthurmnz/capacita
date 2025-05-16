@@ -86,13 +86,118 @@
 }
 @keyframes load_c {
     0% { width: 0; }
-    100% { width: 75%; }
+    100% { width: 65%; }
 }
 @keyframes load_django {
     0% { width: 0; }
-    100% { width: 85%; }
+    100% { width: 75%; }
 }
 @keyframes load_python {
     0% { width: 0; }
-    100% { width: 95%; }
+    100% { width: 55%; }
+}
+
+@media (max-width: 768px) {
+    .skills{
+        display: block;
+        align-items: center;
+        height: 40vw;
+    }
+    .skills_content{
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .skill{
+        display: block;
+        justify-items: center;
+        border: 0.5vw solid #00000000;
+    }
+    .skill h2 {
+        font-size: 1.8vw;
+    }
+    .skill img{
+        width: 90%;
+        height: 60%;
+        transition: ease-in-out 350ms;
+        margin: 0.8vw;
+        filter: drop-shadow(0 10px 20px #8d1dc156);
+    }
+    .skill:hover img{
+        width: 15vw;
+        height: 15vw;
+    }
+    
+    .progress_bar {
+        background: rgba(255,255,255,0.1);
+        justify-content: flex-start;
+        border-radius: 100px;
+        align-items: center;
+        position: relative;
+        padding: 0 5px;
+        display: flex;
+        height: 1.6vw;
+        width: 8vw;
+    }
+    #progress_css {
+        animation: load_css 3s normal forwards;
+        box-shadow: 0 0px 100px 1px #dc7dff;
+        border-radius: 100px;
+        background: #8d1dc1;
+        height: 0.8vw;
+        width: 0;
+    }
+    @keyframes load_css {
+        0% { width: 0; }
+        100% { width: 35%; }
+    }
+    
+    #progress_csharp {
+        animation: load_csharp 3s normal forwards;
+        box-shadow: 0 0px 100px 1px #dc7dff;
+        border-radius: 100px;
+        background: #8d1dc1;
+        height: 0.8vw;
+        width: 0;
+    }
+    @keyframes load_csharp {
+        0% { width: 0; }
+        100% { width: 40%; }
+    }
+    #progress_c {
+        animation: load_c 3s normal forwards;
+        box-shadow: 0 0px 100px 1px #dc7dff;
+        border-radius: 100px;
+        background: #8d1dc1;
+        height: 0.8vw;
+        width: 0;
+    }
+    @keyframes load_c {
+        0% { width: 0; }
+        100% { width: 75%; }
+    }
+    #progress_django {
+        animation: load_django 3s normal forwards;
+        box-shadow: 0 0px 100px 1px #dc7dff;
+        border-radius: 100px;
+        background: #8d1dc1;
+        height: 0.8vw;
+        width: 0;
+    }
+    @keyframes load_django {
+        0% { width: 0; }
+        100% { width: 85%; }
+    }
+    #progress_python {
+        animation: load_python 3s normal forwards;
+        box-shadow: 0 0px 100px 1px #dc7dff;
+        border-radius: 100px;
+        background: #8d1dc1;
+        height: 0.8vw;
+        width: 0;
+    }
+    @keyframes load_python {
+        0% { width: 0; }
+        100% { width: 95%; }
+    }
 }

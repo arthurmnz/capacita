@@ -27,6 +27,7 @@
 }
 #img_perfil{
     border-radius: 50%;
+    object-fit: cover;
     border: #8e1dc1 0.5vh solid;
     box-shadow: #b839e8 0px 0px 15px 1px;
     margin: 2vw;
@@ -39,4 +40,39 @@
     justify-items: start;
     align-content: center;
     background-color: #00000000;
+}
+
+@media (max-width: 768px) {
+    .about_me{
+        background-image: none;
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+    .about_me_content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .picture_about_me{
+        display: block;
+        justify-items: center;
+        align-items: center;
+        width: 50%;
+    }
+    #img_perfil{
+        border-radius: 50%;
+        border: #8e1dc1 0.5vh solid;
+        box-shadow: #b839e8 0px 0px 15px 1px;
+        margin: 2vw;
+        width: 30vw;
+        height: 30vw;
+    }
+    .texts_about_me{
+        width: 90%;
+        display: block;
+        justify-items: start;
+        align-content: center;
+        background-color: #00000000;
+    }
 }
