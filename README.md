@@ -19,6 +19,6 @@ Sinta-se à vontade para entrar em contato comigo:
 - **Email**: [arthurmenezes.dev@gmail.com](mailto:arthurmenezes.dev@gmail.com)
 - **LinkedIn**: [arthur gomes menezes](https://www.linkedin.com/in/arthur-gomes-menezes-8649b0365/)
 - **GitHub**: [arthurmnz](https://github.com/arthurmnz)
-- **Portfólio**: https://arthurmnz.github.io/capacita/.
+- **Portfólio**: https://arthurmnz.github.io/capacita/
 
 Obrigado por visitar meu portfólio!
